@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container{
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+#nav-ex{
+   opacity: 1;
+}
+@media screen and (min-width:850px){
+   .carousel-item{
+      height: 580px;
+      width: auto;
+   }
+   
+   .carousel-caption{
+      font-family: 'Poppins';
+      margin-bottom: 170px;
+      padding: 0px;
+      align-items: left;
+      text-align: left;
+   }
+   
+   .carousel-caption h2{
+      font-size: 50px;
+   }
+   
+   .carousel-caption p{
+      font-size: 18px;
+   }
+}
+@media screen and (max-width:500px){
+   .carousel-caption h2{
+      font-size: 13px;
+   }
+
+   .carousel-caption p{
+      font-size: 7px;
+   }
+}
+
+#icon{
+   width: 100px;
+   height: 100px;
+}
+
+.zoom:hover{
+   transform: scale(1.1);
+   transition: .5s;
+   cursor: pointer;
+}
+
+.shadow{
+   height: 280px;
+}
+
+#image-height{
+      width: 200px;
+      height: 200px;
+      margin-bottom: 1rem;
+}
+
+#image-height-2{
+   height: 100%;
+   width: auto;
+}
+
+/*#scroll{
+    overflow-y: scroll;
+}*/
+
+.background{
+   background-color: #215b64;
+}
